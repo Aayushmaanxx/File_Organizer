@@ -36,45 +36,16 @@ view current files, or move only selected file extensions into custom folders.
 
 ---
 
-## 🚀 Usage Instructions
+## 🚀 Usage
 
-### 1. Make the script executable:
+1. Make the script executable:
 ```bash
-chmod +x organize_menu.sh
-2. Run the script:
-bash
-Copy code
-./organize_menu.sh
-3. Enter the directory path:
-Example:
+chmod +x Fileorganizer.sh
+./Fileorganizer.sh
+```
+---
 
-arduino
-Copy code
-/home/user/Downloads
-🗂 Example Output
-Before:
+## Note : 
+xtension does not match any known type, it goes into Others/ automatically
 
-Copy code
-photo.jpg
-notes.txt
-song.mp3
-report.docx
-movie.mp4
-After running Auto Organize:
-
-bash
-Copy code
-Images/photo.jpg
-TextFiles/notes.txt
-Music/song.mp3
-Documents/report.docx
-Videos/movie.mp4
-🛠 Requirements
-Linux
-
-Bash shell
-
-💡 Notes
-This script only organizes files, not folders.
-
-If a file extension does not match any known type, it goes into Others/ automatically
+---
